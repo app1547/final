@@ -26,7 +26,7 @@ angular.module('starter.controllers', [])
         }, { maximumAge:0, timeout:5000, enableHighAccuracy: true });
         
         var db;
-        if (window.cordova && window.SQLitePlugin) { // because Cordova is platform specific and doesn't work when you run ionic serve               
+        if (window.cordova && window.SQLitePlugin){ // because Cordova is platform specific and doesn't work when you run ionic serve               
             db = window.sqlitePlugin.openDatabase({ name: "fireapp.db", location: 2 }); //device - SQLite
             $scope.msg1 = "DEVICE SQL";
         } else {
