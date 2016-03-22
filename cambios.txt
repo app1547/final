@@ -1,0 +1,14 @@
+https://github.com/apache/cordova-plugin-geolocation
+
+cordova plugin add cordova-plugin-geolocation
+
+// JAVASCRIPT //
+navigator.geolocation.getCurrentPosition(
+    function(position){
+        $scope.lat1 = position.coords.latitude;
+        $scope.lng1 = position.coords.longitude;
+        console.log(position);
+    },
+    function(){
+        alert('Error getting location');
+    });

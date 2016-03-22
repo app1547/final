@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.fbconnect149380" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+  <name>Camara</name>
+  <description>
+        Pruebas OneGorilla
+    </description>
+  <author email="jaime@onegorilla.cl" href="http://onegorilla.cl/">
+      OneGorilla
+    </author>
+  <gap:plugin name="com.phonegap.plugin.statusbar" />
+  <gap:plugin name="com.ionic.keyboard" />
+  <plugin name="cordova-plugin-camera" spec="1.2.0" source="pgb" />
+  <plugin name="cordova-plugin-geolocation" spec="2.1.0" source="pgb" />
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+</widget>
