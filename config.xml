@@ -10,7 +10,6 @@
   <gap:plugin name="com.phonegap.plugin.statusbar" />
   <gap:plugin name="com.ionic.keyboard" />
   <plugin name="cordova-plugin-camera" spec="1.2.0" source="pgb" />
-  <plugin name="cordova-plugin-geolocation" spec="2.1.0" source="pgb" />
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
